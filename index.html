@@ -45,26 +45,19 @@
 				<div class="row hidden-xs">
 					<div class="col-sm-6 col-md-6">
 						<div class="animation img-center">
-							<!-- <img class="img-responsive img-center " src="img/header-img.svg" alt=""> -->
 						</div>
 					</div>
 					<div class="col-sm-6 text-center">
-						<img src="img/rehive-logo1.svg"/>
+						<img class="header-logo" src="img/rehive-logo1.svg"/>
 						<h1>
 							Enterprise mobile wallet<br>solution on Ethereum.
 						</h1>
 					</div>
 				</div>
 				<div class="row visible-xs">
-					<div class="col-sm-6 col-md-6">
-						<div class="text-center">
-							<img class="img-responsive img-center" src="img/header-img.svg" alt="">
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<h3>
-							Enterprise mobile wallet solution on Ethereum.
-						</h3>
+					<div class="text-center">
+						<img src="img/rehive-logo1.svg"/>
+						<h3>Enterprise mobile wallet <br>solution on Ethereum.</h3>
 					</div>
 				</div>
 			</div>
@@ -72,9 +65,13 @@
 
 		<section id="myhead" class="light-type red-bg banner-section">
 			<div class="container">
-				<div class="text-center">
+				<div class="row hidden-xs text-center">
 					<h2>Rehive is democratizing the financial services market.</h2>
 					<h4>For the first time you do not have to trust a third party<br>transactions ledger to launch an exciting new wallet app. </h4>
+				</div>
+				<div class="container visible-xs text-center">
+					<h3>Rehive is democratizing the financial services market.</h3>
+					<p>For the first time you do not have to trust a third party transactions ledger to launch an exciting new wallet app. </p>
 				</div>
 			</div>
 		</section>
@@ -89,39 +86,74 @@
 			</div>
 		</section>
 
-		<section id="Product" class="light-grey-bg banner-section dark-type">
+		<section id="Product" class="banner-section dark-type">
 			<div class="container">
 				<h2 class="text-center">Products</h2>
-				<div class="col-md-6">
-					<img class="product-img" src="img/img1.svg"/>
+					<div class="row hidden-xs productsection">
+						<div class="col-md-6">
+							<img class="product-img" src="img/img1.svg"/>
+						</div>
+						<div class="col-md-6">
+							<h3 class="text-center">Dashboard</h3>
+							<ul class="products">
+								<li>Issue tokens pegged to any currency in seconds. You always have full control and transparency.</li>
+								<li>Manage user deposits and withdrawals.</li>
+								<li>Invite new users, collect KYC documents, verify user information, set fees and transaction limits.</li>
+							</ul>
+						</div>
+					</div>
+				<div class="row hidden-xs productsection">
+					<div class="col-md-6">
+						<h3 class="text-center">Wallet Apps</h3>
+						<p>Launch your own branded wallet app. Customize our client libraries to fit your product and brand. Users can instantly start transacting. 
+						</p>
+					</div>
+					<div class="col-md-6">
+						<img class="product-img" src="img/img2.svg"/>
+					</div>
 				</div>
-				<div class="col-md-6">
-					<h3>Dashboard</h3>
-					<ul class="products">
-						<li>Issue tokens pegged to any currency in seconds. You always have full control and transparency.</li>
-						<li>Manage user deposits and withdrawals.</li>
-						<li>Invite new users, collect KYC documents, verify user information, set fees and transaction limits.</li>
-					</ul>
+				<div class="row hidden-xs productsection">
+					<div class="col-md-6">
+						<img class="product-img" src="img/img3.svg"/>
+					</div>
+					<div class="col-md-6">
+						<h3 class="text-center">API</h3>
+						<p>Developers can integrate with our API’s and use our client side libraries to customize and improve the consumer experience for niche use cases.
+						</p>
+					</div>
 				</div>
-			</div>
-			<div class="container">
-				<div class="col-md-6">
-					<h3>Wallet Apps</h3>
-					<p>Launch your own branded wallet app. Customize our client libraries to fit your product and brand. Users can instantly start transacting. 
-					</p>
+				<div class="row visible-xs productsection">
+					<div class="col-md-6">
+						<h3 class="text-center">Dashboard</h3>
+						<img class="product-img-sml" src="img/img1.svg"/>
+					</div>
+					<div class="col-md-6">
+						<ul class="products">
+							<li>Issue tokens pegged to any currency in seconds. You always have full control and transparency.</li>
+							<li>Manage user deposits and withdrawals.</li>
+							<li>Invite new users, collect KYC documents, verify user information, set fees and transaction limits.</li>
+						</ul>
+					</div>
 				</div>
-				<div class="col-md-6">
-					<img class="product-img" src="img/img2.svg"/>
+				<div class="row visible-xs productsection">
+					<div class="col-md-6">
+						<h3 class="text-center">Wallet Apps</h3>
+						<img class="product-img-sml" src="img/img2.svg"/>
+					</div>
+					<div class="col-md-6">
+						<p>Launch your own branded wallet app. Customize our client libraries to fit your product and brand. Users can instantly start transacting. 
+						</p>
+					</div>
 				</div>
-			</div>
-			<div class="container">
-				<div class="col-md-6">
-					<img class="product-img" src="img/img3.svg"/>
-				</div>
-				<div class="col-md-6">
-					<h3>API</h3>
-					<p>Developers can integrate with our API’s and use our client side libraries to customize and improve the consumer experience for niche use cases.
-					</p>
+				<div class="row visible-xs productsection">
+					<div class="col-md-6">
+						<h3 class="text-center">API</h3>
+						<img class="product-img-sml" src="img/img3.svg"/>
+					</div>
+					<div class="col-md-6">
+						<p>Developers can integrate with our API’s and use our client side libraries to customize and improve the consumer experience for niche use cases.
+						</p>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -145,39 +177,32 @@
 						<p>Issuers and users always have full control of their funds. The Ethereum blockchain is immutable, transparent and decentralised.</p>
 					</div>
 				</div>
-				<!-- <div class="row visible-xs">
-					<div class="col-sm-12">
-						<div class="media">
-							<img class="pull-left" src="img/icon1.png" height="100" alt="">
-							<div class="media-body">	
-								<h3>Load</h3>
-								<p>Enter the amount of bitcoin <br>you want to load in Rands.</p>
-							</div>
-						</div>
-						<div class="media">
-							<a class="pull-left" href="#"><img class="media-object" src="img/icon2.png" width="100" alt=""></a>
-							<div class="media-body">
-								<h3>Pay</h3>
-								<p>Pay for your order by scanning the <br>barcode on your phone.</p>
-							</div>
-						</div>
-						<div class="media">
-							<a class="pull-left" href="#"><img class="media-object" src="img/icon3.png" width="100" alt=""></a>
-							<div class="media-body">
-								<h3>Yay!</h3>
-								<p>Your payment goes through -<br>it's that simple.</p>
-							</div>
-						</div>
+				<div class="container visible-xs text-center">
+					<div>
+						<h3>Instant</h3>
+						<p>Peer-to-peer payments are instantly processed on the blockchain network.</p>
 					</div>
-				</div> -->
+					<div>
+						<h3>Interoperable</h3>
+						<p>Wallets are interoperable.</p>
+					</div>
+					<div>
+						<h3>Full control</h3>
+						<p>Issuers and users always have full control of their funds. The Ethereum blockchain is immutable, transparent and decentralised.</p>
+					</div>
+				</div>
 			</div>
 		</section>
 
 		<section id="myhead" class="light-type red-bg banner-section">
 			<div class="container">
-				<div class="text-center">
+				<div class="row hidden-xs text-center">
 					<h2>Pricing</h2>
 					<h4>Get started immediately. You can customize your fees for all the different type of transactions, e.g. Deposits, Withdrawals, Sending, etc. Hive charges only 10% of that fee.</h4>
+				</div>
+				<div class="container visible-xs text-center">
+					<h3>Pricing</h3>
+					<p>Get started immediately. You can customize your fees for all the different type of transactions, e.g. Deposits, Withdrawals, Sending, etc. Hive charges only 10% of that fee.</p>
 				</div>
 			</div>
 		</section>
@@ -203,7 +228,8 @@
 						<li><a href="">Blog</a></li>
 						<li><a href="">Twitter</a></li>
 					</ul>
-				<p class="footertext">&copy; plusGo Co. All rights reserved.</p>
+				<p class="footertext hidden-xs">&copy; plusGo Co. All rights reserved.</p>
+				<p class="footertext visible-xs text-center">&copy; plusGo Co. All rights reserved.</p>
 			</div>
 		</footer>
 		

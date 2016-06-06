@@ -7,12 +7,9 @@ h1,h2,h3,h4,h5,h6 {
 p{
 	font-family: 'Lato', sans-serif;
 	font-size: 18px;
-	line-height: 24px;
+	line-height: 26px;
 	margin-bottom: 20px;
 	font-weight: 400px;
-}
-body {
-	padding-top: 0;
 }
 h1 {
 	font-size: 30px;
@@ -44,43 +41,37 @@ h4 {
 	font-weight: 400;
 	line-height: 28px;
 }
-/*.navbarlogo {
-	padding: 10px 0px 0px 0px;
-	line-height: 26px;
-	color: #FFF;
-	font-size: 30px;
-	font-weight: 700
-	;
-}*/
-/*#home #myhead {
-    overflow: hidden;
-    background-size: cover;
-    background-image: url("../img/head_bg3.jpg");
-    background-position: center 16%;
-    position: relative;
-    padding: 136px 0 0 0;
-}*/
 
 .header-section {
 	color:#F8CF51;
 	padding: 120px 0 80px 0;
 }
+.header-logo {
+	padding-top: 80px;
+}
 .banner-section {
 	padding: 60px 0 60px 0;
 }
-
-.img-center {
-	margin: 0 auto;
+.productsection {
+	padding: 30px 10px 30px 10px;
 }
-.product-img {
-	border-radius: 50px;
-	max-width: 100%;
-	padding: 20px;
 }
 ul.products {
 	color: #4d4d4d;
 	font-size: 18px;
-	line-height: 32px;
+	line-height: 28px;
+}
+.img-center {
+	margin: 0 auto;
+}
+.product-img {
+/*	border-radius: 30px;*/
+	max-width: 100%;
+}
+.product-img-sml {
+	border-radius: 30px;
+	max-width: 100%;
+	padding: 0 0 20px 0;
 }
 .client-logo-sml {
 	max-width: 100%;
@@ -230,7 +221,7 @@ h4.media-heading {
 }
 .animation {
 	max-width:100%;
-	height: 250px;
+	height: 300px;
     overflow: hidden;
 	background-size: cover;
     background-image: url("../img/animate/hives-01.svg");
