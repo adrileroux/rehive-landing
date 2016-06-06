@@ -23,7 +23,7 @@ body {
 }
 /* ------------------------ colors ------------------------ */
 .gray-bg {
-	background-color: #f2f2f2;
+	background-color: #4d4d4d;
 }
 .color-bg{
 	background-color:#40b3d9;
@@ -39,12 +39,12 @@ body {
 }
 
 /* ------------------------ image background ------------------------ */
-.image-bg {
+/*.image-bg {
 	overflow: hidden;
 	background-size: cover;
 	background-image: url("../img/head_bg3.jpg");
 	background-position: center 16%;
-	position: relative;
+	position: relative;*/
 }
 .dark-bg {
 	background-color: #313a43;
@@ -1127,11 +1127,11 @@ body.modal-open {
 		-moz-transition: all 0.25s ease-out;
 		transition: all 0.25s ease-out;
 	}
-	.text-col h1{
+/*	.text-col h1{
 		text-align: center;
 		background-color: #FFF;
 		color: #000;
-	}
+	}*/
 	.row-offcanvas-right .sidebar-offcanvas {
 		right: -50%;
 		/* 6 columns */
