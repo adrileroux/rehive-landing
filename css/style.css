@@ -1,15 +1,15 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Lato', sans-serif;
-/*	font-weight: 300;*/
+	font-family: 'Lato',sans-serif;
+	font-weight: 100px;
 }
 p{
 	font-family: 'Lato', sans-serif;
 	font-size: 18px;
 	line-height: 26px;
 	margin-bottom: 20px;
-	font-weight: 400px;
+	font-weight: 300;
 }
 h1 {
 	font-size: 30px;
@@ -30,7 +30,7 @@ h3 {
 	font-size: 24px;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 400;
+	font-weight: 300;
 	line-height: 28px;
 	margin-bottom: 30px;
 }
@@ -38,7 +38,7 @@ h4 {
 	font-size: 20px;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 400;
+	font-weight: 100;
 	line-height: 28px;
 }
 
@@ -63,6 +63,13 @@ ul.products {
 }
 .img-center {
 	margin: 0 auto;
+	text-align: center;
+}
+.text-center {
+	text-align: center;
+}
+.img-padding {
+	max-width: 70%;
 }
 .product-img {
 /*	border-radius: 30px;*/
@@ -115,10 +122,12 @@ ul.products {
 /* ------------------------ nav bar ------------------------ */
 
 .navbar-brand {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	line-height: 26px;
 	padding: 12px 15px;
 	font-weight: 100;
 	letter-spacing: 0.7pt;
+	font-size: 28px;
 }
 .navbar-inverse {
 	border-color: #666666;
@@ -158,6 +167,12 @@ h4.media-heading {
 .navbar-inverse .navbar-nav>.active>a:focus {
 	color: #FAC928;
 	background-color: transparent;
+}
+.navbar-text {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	margin-top: 0px;
 }
 
 /* ------------------------------ scroll to top -------------------------- */
